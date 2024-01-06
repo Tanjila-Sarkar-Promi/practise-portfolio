@@ -41,11 +41,13 @@ body{
 }
 .about{
     display: block;
-    margin: 100px 150px ;
-    background-color: rgba(255, 182, 193, 0.339);
+    background-color: rgba(28, 196, 226, 0.262);
     padding: 80px 100px;
     border-radius: 40px;
-    box-shadow: 10px 10px 10px pink;
+    
+    margin: 100px 150px ;
+    
+    box-shadow: 10px 10px 10px skyblue;
 }
 .about-element{
     text-align: center;
@@ -63,8 +65,8 @@ body{
 }
 .inline-block{
     display: inline-block;
-    padding: 20px;
-    color: dodgerblue;
+    padding: 15px;
+    color: rgb(8, 5, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 .half-width-2{
@@ -115,3 +117,41 @@ body{
 .ex-h2{
     color: blue;
 }
+
+.contact-form{
+    background-color: rgba(255, 182, 193, 0.339);
+    padding: 5% ;
+    border-radius: 10px;
+    display: flex;
+    margin: 5%;
+    box-shadow: 10px 10px 10px pink;
+}
+
+.half-width-3{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.half-width-3 p{
+    color: grey;
+    text-align: justify;
+}
+#form-te{
+    width:300px;
+    height: 80px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+#form-m{
+    width:300px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+.submit-button{
+    padding: 10px 30px;
+    background-image: linear-gradient(pink, purple);
+    border-radius: 10px;
+
+}
+
