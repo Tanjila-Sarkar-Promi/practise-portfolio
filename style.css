@@ -5,7 +5,7 @@ body{
 
 }
 .heading{
-    font-size: 50px;
+    font-size: 60px;
 }
 .top-banner{
     
@@ -42,28 +42,30 @@ body{
 .about{
     display: block;
     margin: 100px 150px ;
-    background-image: linear-gradient(skyblue, pink);
+    background-color: rgba(255, 182, 193, 0.339);
     padding: 80px 100px;
     border-radius: 40px;
-    box-shadow: 20px 20px 10px gray;
+    box-shadow: 10px 10px 10px pink;
 }
 .about-element{
     text-align: center;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkmagenta;
-    
+    color: black;
+   
 }
 .about p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: white;
+    color: grey;
     
 
 }
 .inline-block{
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
+    color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .half-width-2{
     width:50%;
@@ -84,4 +86,32 @@ body{
     background-image: linear-gradient(cyan, blue);
     color: aliceblue;
     border-radius: 8px;
+}
+.experiences{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.heading-ex{
+    color: black;
+    font-size: 50px;
+    margin-left: 3%;
+
+}
+.experiences-item{
+    width: 50%;
+    margin: 5%;
+    padding: 3%;
+    border-left: 8px solid rgba(128, 0, 128, 0.604);
+    
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px 12px rgba(128, 0, 128, 0.384);
+
+}
+.ex-color{
+    color: orange;
+}
+.ex-h2{
+    color: blue;
 }
